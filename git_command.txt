@@ -1,9 +1,10 @@
 #Git명령어 정리
 
 -git init : 해당 디렉토리에 있는 파일을 관리하겠다고 git에게 알려줌
--git --global user.email "내 이메일"
- git --global user.name "내 이름" 
+-git config --global user.email "내 이메일"
+ git config --global user.name "내 이름" 
  :누가 파일을 관리하는지 사용자 등록을 할 때 사용
+-git remote origin "저장소 주소" : 저장소 등록
 -git add "파일이름.확장자" : git에 등록할 파일 추가
  ex)git add readme.txt
 -git commit -m "설명" : 커밋할 때 추가 설명
